@@ -7,18 +7,18 @@ namespace Time_Conversion
         static void Main(string[] args)
         {
             //00:40:22
-            string imput = "12:40:22AM";
+            string input = "12:40:22AM";         
+            
+            Console.WriteLine(TimeConversion(input));
 
-            Console.WriteLine(DateTime.Parse(Console.ReadLine()).ToString("HH:mm:ss"));
-            
             //////////////////////////////////////
-            
-            Console.WriteLine(NewMethod(imput));
+            Console.WriteLine(DateTime.Parse(input).ToString("HH:mm:ss"));
+           
 
             Console.ReadKey();
         }
 
-        static string NewMethod(string s)
+        static string TimeConversion(string s)
         {
             string hour = s.Substring(0, 2); //00
             string format = s.Substring(8, 2); // format AM / PM
