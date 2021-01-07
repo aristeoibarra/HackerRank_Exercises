@@ -7,14 +7,11 @@ namespace Time_Conversion
         static void Main(string[] args)
         {
             //00:40:22
-            string input = "12:40:22AM";         
-            
+            string input = "12:40:22AM";                    
             Console.WriteLine(TimeConversion(input));
 
             //////////////////////////////////////
             Console.WriteLine(DateTime.Parse(input).ToString("HH:mm:ss"));
-           
-
             Console.ReadKey();
         }
 

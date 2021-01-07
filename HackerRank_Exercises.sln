@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Time Conversion", "Time Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grading Students", "Grading Students\Grading Students.csproj", "{0525DF51-9FBF-47EE-9A41-DCD86903DA1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays-DS", "Arrays-DS\Arrays-DS.csproj", "{CF056ED5-A4D6-448B-9DA9-52C751F400DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays-DS", "Arrays-DS\Arrays-DS.csproj", "{CF056ED5-A4D6-448B-9DA9-52C751F400DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArray-DS", "2DArray-DS\2DArray-DS.csproj", "{C4C81166-11A4-443A-9EEB-1DA07727FBC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CF056ED5-A4D6-448B-9DA9-52C751F400DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF056ED5-A4D6-448B-9DA9-52C751F400DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF056ED5-A4D6-448B-9DA9-52C751F400DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C81166-11A4-443A-9EEB-1DA07727FBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C81166-11A4-443A-9EEB-1DA07727FBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C81166-11A4-443A-9EEB-1DA07727FBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C81166-11A4-443A-9EEB-1DA07727FBC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
