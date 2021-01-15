@@ -7,6 +7,9 @@ namespace _2DArray_DS
     {
         static void Main(string[] args)
         {
+            //Jagged Arrays  
+            //Matriz de matrices
+
             int[][] arr = new int[6][] {
                 new int[6] {-9 ,-9, -9 , 1, 1 ,1},
                 new int[6] { 0, -9,  0,  4, 3, 2},

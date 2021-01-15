@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReducedString", "ReducedStr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number Line Jumps", "Number Line Jumps\Number Line Jumps.csproj", "{6FF637B5-91AD-4160-94F7-ACA6013A77FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionariesAndMaps", "DictionariesAndMaps\DictionariesAndMaps.csproj", "{8E5ED920-A334-44A2-B6C8-F302011A53C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionariesAndMaps", "DictionariesAndMaps\DictionariesAndMaps.csproj", "{8E5ED920-A334-44A2-B6C8-F302011A53C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Numbers", "Binary Numbers\Binary Numbers.csproj", "{D4519DA8-F8E6-4CDF-9D48-F3F8AB416656}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{8E5ED920-A334-44A2-B6C8-F302011A53C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E5ED920-A334-44A2-B6C8-F302011A53C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E5ED920-A334-44A2-B6C8-F302011A53C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4519DA8-F8E6-4CDF-9D48-F3F8AB416656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4519DA8-F8E6-4CDF-9D48-F3F8AB416656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4519DA8-F8E6-4CDF-9D48-F3F8AB416656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4519DA8-F8E6-4CDF-9D48-F3F8AB416656}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
