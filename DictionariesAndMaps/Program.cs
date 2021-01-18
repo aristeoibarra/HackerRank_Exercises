@@ -9,25 +9,22 @@ namespace DictionariesAndMaps
         static void Main(string[] args)
         {
             int N = int.Parse(Console.ReadLine());
-            Dictionary<string, int> openWith = new Dictionary<string, int>(N);
+            Dictionary<string, int> contactsBook = new Dictionary<string, int>(N);
 
             for (int i = 0; i < N; i++)
             {
-                string[] s = Console.ReadLine().Split(' ');
-                openWith.Add(s[0], int.Parse(s[1]));
+                string[] contact = Console.ReadLine().ToLower().Split(' ');
+                if (contact[1].Length == 8)
+                    contactsBook.Add(contact[0], int.Parse(contact[1]));
             }
 
-            for (int i = 0; i < N; i++)
+            string nameContact;
+            while ((nameContact = Console.ReadLine()) != null)
             {
-                string s = Console.ReadLine();
-                if (openWith.ContainsKey(s))
-                {
-                    Console.WriteLine(s + "=" + openWith[s]);
-                }
+                if (contactsBook.ContainsKey(nameContact))
+                    Console.WriteLine(nameContact + "=" + contactsBook[nameContact]);
                 else
-                {
                     Console.WriteLine("Not found");
-                }
             }
         }
     }
